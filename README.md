@@ -62,7 +62,7 @@ For me, the next question is how to simply allow users to post the trivia game o
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-If I had more time, I would probably beautify the whole interface, add more user-definable elements such as various game difficulty combinations, etc., and add sharing features, such as posting to the web and generating links to share with friends. But these steps may require a lot of extra learning and experimentation.
+If I had more time, I would probably beautify the whole interface, add more user-definable elements such as various game difficulty combinations, make index page shows the progress status etc., and add sharing features, such as posting to the web and generating links to share with friends. But these steps may require a lot of extra learning and experimentation.
 
 
 
