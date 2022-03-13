@@ -2,7 +2,7 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: Wing
+Submitted by: Wing Au
 
 Time spent: 3 hours spent in total
 
@@ -46,18 +46,22 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+
 No additional resources used
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
 Since the course introduced glitch, making GIFs and uploading them to github, which I had not used before. It was a bit overwhelming at first.
 Especially glitch, the interface on the tutorial is a bit different from glitch, I think because the glitch website is also being updated. But once you are familiar with it, the operation behind is still very simple and easy to get started. The mini-games that the tutorial leads to are also very interesting and each step is very clear, not too difficult to follow the steps to complete. The optional section at the end also leaves enough room for everyone to expand the game according to their own abilities and interests, which is very thoughtful.
 If there is anything that needs to be improved, I think there are various videos and pages in the tutorial that need to be linked to other places to follow along, and I opened several different windows to follow the tutorial myself. If you can try to display all these resources in one page or place, it might be more focused and clear for users.
 Finally, for myself, I did not encounter any particularly difficult situations throughout the process, which is rare for this long tutorial, so thank you very much for your efforts.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 For me, the next question is how to simply allow users to post the trivia game online so that others can try it without having to log in to a specific platform like glitch to try the trivia game? I think this might be a bit complicated for newbies and involve steps such as domain applications, which I am not familiar with personally but would like to learn more about.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+
 If I had more time, I would probably beautify the whole interface, add more user-definable elements such as various game difficulty combinations, etc., and add sharing features, such as posting to the web and generating links to share with friends. But these steps may require a lot of extra learning and experimentation.
 
 
