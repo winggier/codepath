@@ -1,0 +1,77 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: slategrey;
+    color: lightyellow; 
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#b1 {
+    background: lightgreen;
+}
+#b1:active, #b1.lit {
+    background:green;
+}
+
+#b2 {
+    background: lightblue;
+}
+#b2:active, #b2.lit {
+    background:blue;
+}
+
+#b3 {
+    background: lightgrey;
+}
+#b3:active, #b3.lit {
+    background:grey;
+}
+
+#b4 {
+    background: lightpink;
+}
+#b4:active, #b4.lit {
+    background:red;
+}
+
+
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
