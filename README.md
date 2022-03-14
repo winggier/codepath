@@ -23,7 +23,7 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [ ] More than 4 functional game buttons
 * [x] Playback speeds up on each turn
 * [x] Computer picks a different pattern each time the game is played
@@ -34,15 +34,12 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Three new preset difficulty levels are added, corresponding to different pattern lengths and Playback speeds
+- [x] Three new preset game levels are added, corresponding to different pattern lengths and Playback speeds
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/32319646/158087105-7540d122-ecd7-4559-bbc5-01136633111e.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
