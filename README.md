@@ -65,7 +65,7 @@ If I had more time, I would probably beautify the whole interface, add more user
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+https://stonybrook.zoom.us/rec/share/x2upvYJgc0MpCN6qT5x9lk0pIOXjvXvKuqw3h3HXo9TKqCyxqTGykRjN8M2LNo6I.20--O3g52M-b4RMF?startTime=1647298013000 (Passcode: 0!Yscmce)
 
 
 ## License
