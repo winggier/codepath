@@ -91,6 +91,8 @@ function playClueSequence(){
   let delay = nextClueWaitTime; //set delay to initial wait time
   for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
+    clueHoldTime = clueHoldTime*0.95
+    cluePauseTime = cluePauseTime*0.95
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
     delay += clueHoldTime 
     delay += cluePauseTime;
@@ -112,11 +114,11 @@ function getPatt(size) {
 }
 
 function Monkey() {
-  psize = 10;
-  clueHoldTime = 800;
-  cluePauseTime = 200;
-  nextClueWaitTime = 800;
-  console.log("Monkey (patterns length 10 and slower) level set");
+  psize = 3;
+  clueHoldTime = 600;
+  cluePauseTime = 100;
+  nextClueWaitTime = 600;
+  console.log("Monkey (patterns length 3 and slower) level set");
 }
 
 function Human() {
@@ -144,6 +146,7 @@ function guess(btn){
     // console.log("user got: " + pattern[guessCounter]);
     if(guessCounter == progress){
       if(progress == pattern.length - 1) {
+        console.log("You Won");
         winGame();
       }
       else{
@@ -157,8 +160,11 @@ function guess(btn){
   }
   else{
     strikes--;
-    if(strikes == 0) {loseGame();}
-    console.log("bad guess.. strike left " + strikes);
+    if(strikes == 0) {
+      console.log("You Lost");
+      loseGame();
+    }
+    console.log("incorrect guess.. strikes left " + strikes);
     playClueSequence();
   }
 }
